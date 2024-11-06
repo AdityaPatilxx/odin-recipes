@@ -1,0 +1,17 @@
+.title-bar{
+    background-color: #fad428;
+    padding: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.recipe-list{
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.recipe-list a{
+    color: rgb(236, 187, 26);
+}
+
