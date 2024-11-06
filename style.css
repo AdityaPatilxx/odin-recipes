@@ -2,16 +2,47 @@
     background-color: #fad428;
     padding: 1rem;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
-.recipe-list{
-    margin: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    background-color: #f0e478;
+}
+
+.recipe-list ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
 }
 
 .recipe-list a{
-    color: rgb(236, 187, 26);
+    text-decoration: none;
+    flex: 1;
+    color: #ffc917;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.recipe-list img {
+    width: auto; /* Adjust as needed */
+    height: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-left: 1rem;
 }
 
